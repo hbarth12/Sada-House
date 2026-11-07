@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sada House is a gathering place in Damascus for talks, books, and conversation.">
+  <title>Sada House — Damascus</title>
+  <link rel="alternate" hreflang="ar" href="ar.html">
+  <link rel="stylesheet" href="styles.css?v=4">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="header-brand" href="#top" aria-label="Sada House home">
+        <span class="header-wordmark-latin">Sada</span>
+        <span class="header-wordmark-arabic" lang="ar" dir="rtl">صدى</span>
+        <span class="header-wordmark-house">House</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a class="language-toggle" href="ar.html" lang="ar" hreflang="ar">العربية</a>
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="introduction" id="top">
+      <div class="page-column intro-inner">
+        <img class="main-logo" src="assets/sada-house-opening-transparent.png" alt="Sada House">
+        <span class="main-logo-house">House</span>
+      </div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="page-column">
+        <div class="about-heading">
+          <h2 id="about-title">An Intellectual Hub in Damascus.</h2>
+        </div>
+        <figure class="photo-bulletin" aria-label="Scenes from gatherings at Sada House">
+          <div class="bulletin-photo bulletin-photo-1"><img src="assets/bulletin-2.jpg" alt="A speaker in conversation at Sada House."></div>
+          <div class="bulletin-photo bulletin-photo-2"><img src="assets/bulletin-4.jpg" alt="Two audience members listening at Sada House."></div>
+          <div class="bulletin-photo bulletin-photo-3"><img src="assets/bulletin-1.jpg" alt="A guest speaking in the Sada House garden."></div>
+          <div class="bulletin-photo bulletin-photo-4"><img src="assets/bulletin-3.jpg" alt="An audience member holding a book at Sada House."></div>
+        </figure>
+        <div class="about-copy">
+          <p>We bring people together around book talks, panels, film screenings, and even the occasional trivia night.<br><br>Sada House is a shared home in Mazra’a District, Damascus, founded by Syria Direct and Syria Civic.</p>
+          <p>Here, people across professions and generations can meet, exchange ideas, and find collaborators.<br><br>Our lending library offers books, newspapers, and reference materials to anyone in the city.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="updates-section" id="updates" aria-labelledby="updates-title">
+      <div class="page-column updates-inner">
+        <div>
+          <h2 id="updates-title">Get the Latest from Sada House</h2>
+        </div>
+        <form class="updates-form" action="https://formspree.io/f/mrppvkvp" method="post">
+          <label for="updates-email">Email address</label>
+          <input class="form-honeypot" name="_gotcha" type="text" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input name="source" type="hidden" value="Sada House English site">
+          <div class="updates-fields">
+            <input id="updates-email" name="email" type="email" autocomplete="email" required>
+            <button type="submit">Sign up</button>
+          </div>
+          <p class="updates-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="events-section" id="events" aria-labelledby="events-title">
+      <div class="page-column">
+        <section class="programme-group" aria-labelledby="events-title">
+          <h1 id="events-title">Upcoming events</h1>
+          <div id="featured-event" class="event-list" aria-live="polite"></div>
+          <div class="compact-event-list" id="upcoming-events"></div>
+        </section>
+
+        <section class="programme-group past-programme" id="past-events-section" aria-labelledby="past-title">
+          <div class="programme-heading-row">
+            <h2 id="past-title">Past events</h2>
+          </div>
+          <div class="compact-event-list" id="past-events"></div>
+        </section>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="page-column contact-inner">
+        <h2 class="contact-title" id="contact-title">Have an idea for Sada House?</h2>
+        <p class="contact-copy">To host a private event or inquire about the space, write to <a href="mailto:info@syriadirect.org">info@syriadirect.org</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="page-column footer-inner">
+      <p>Sada House · Mazra'a, Damascus</p>
+      <p>صدى</p>
+    </div>
+  </footer>
+
+  <script src="events.js?v=4"></script>
+  <script src="script.js?v=4"></script>
+</body>
+</html>
